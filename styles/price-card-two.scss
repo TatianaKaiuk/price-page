@@ -1,0 +1,27 @@
+.price-card__two {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 147px;
+  top: -31px;
+  right: 30px;
+  border-top: 25px solid $color-price-tables;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid $color-price-tables;
+  background: #dc3f45;
+  transform: rotate(-45deg);
+  &__text {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    right: -23px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-white;
+    transform: rotate(90deg);
+  }
+}
