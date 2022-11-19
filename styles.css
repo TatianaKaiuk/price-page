@@ -1,12 +1,12 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  margin-left: 18px;
   margin-top: 115px;
-  margin-bottom: 115px;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   max-width: 380px;
-  min-height: 770px;
+  height: 770px;
   padding-bottom: 40px;
 }
 .price-card__title {
@@ -36,6 +36,12 @@
   padding-top: 19px;
   padding-bottom: 19px;
   background-color: #5bb189;
+}
+.price-card__price_business {
+  background-color: #3A6BA5;
+}
+.price-card__price_webshop {
+  background-color: #EC632A;
 }
 .price-card__description {
   display: block;
@@ -87,6 +93,43 @@
   background-color: #5bb189;
 }
 
+.button-blue {
+  background-color: #3A6BA5;
+}
+
+.button-orange {
+  background-color: #EC632A;
+}
+
+.price-card__two {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 147px;
+  top: -31px;
+  right: 30px;
+  border-top: 25px solid #141b1c;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid #141b1c;
+  background: #dc3f45;
+  transform: rotate(-45deg);
+}
+.badge__text {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  right: -23px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  transform: rotate(90deg);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -98,8 +141,12 @@
 .price-tables {
   display: flex;
   justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+  position: relative;
   background-color: #141b1c;
   max-width: 1440px;
+  min-height: 1000px;
 }
 
 /*# sourceMappingURL=styles.css.map */

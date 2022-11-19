@@ -1,6 +1,7 @@
 @import 'variables.scss';
 @import 'price-card.scss';
 @import 'commons.scss';
+@import 'price-card-two.scss';
 * {
   box-sizing: border-box;
 }
@@ -10,6 +11,10 @@
 .price-tables {
   display: flex;
   justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+  position: relative;
   background-color: $color-price-tables;
   max-width: 1440px;
+  min-height: 1000px;
 }
