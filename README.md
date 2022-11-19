@@ -1,6 +1,6 @@
 # Price page
 
-### [Site link](https://gromcode.github.io/layout-sample-project/)
+### [Site link]( https://tatianakaiuk.github.io/price-page/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
@@ -14,4 +14,4 @@ Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
 ### Author
 
-- Some Name
+- Kaniuk Tatiana
