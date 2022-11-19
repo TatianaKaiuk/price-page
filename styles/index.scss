@@ -1,4 +1,15 @@
-html {
+@import 'variables.scss';
+@import 'price-card.scss';
+@import 'commons.scss';
+* {
+  box-sizing: border-box;
+}
+.page {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+}
+.price-tables {
+  display: flex;
+  justify-content: center;
+  background-color: $color-price-tables;
+  max-width: 1440px;
 }
