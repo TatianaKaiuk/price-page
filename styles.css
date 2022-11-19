@@ -52,9 +52,6 @@
   color: #ffffff;
   margin: 40px 26px 40px 26px;
 }
-.price-card__options-list {
-  padding-bottom: 40px;
-}
 .price-card__options-list tr:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
 }
@@ -70,6 +67,7 @@
   align-items: center;
   justify-content: center;
   margin: 0;
+  margin-top: 40px;
 }
 
 .symbol {
