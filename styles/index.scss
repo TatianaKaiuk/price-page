@@ -14,8 +14,9 @@
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
+  overflow: hidden;
   position: relative;
   background-color: $color-price-tables;
   max-width: 1440px;
-  min-height: 1000px;
+  height: 1000px;
 }

@@ -1,7 +1,18 @@
-.symbol {
+.checkmark {
+  display: inline-block;
   width: 15px;
   height: 13px;
   margin-right: 22px;
+
+&_green {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+&_blue {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+&_orange {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
 }
 .price-card__order-btn {
   width: 154px;
@@ -17,7 +28,7 @@
   background-color: $color-green;
 }
 .button-blue {
-    background-color: $color-blue;
+  background-color: $color-blue;
 }
 .button-orange {
   background-color: $color-orange;
