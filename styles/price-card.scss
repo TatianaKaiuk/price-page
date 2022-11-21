@@ -7,6 +7,9 @@
   width: 380px;
   height: 770px;
   padding-bottom: 40px;
+  &:first-child {
+    margin-left: 0;
+  }
 
   &__title {
     display: flex;
