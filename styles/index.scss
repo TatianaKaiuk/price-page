@@ -6,14 +6,20 @@
   box-sizing: border-box;
 }
 .page {
+  display: flex;
+  flex-direction: column;
   font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #F2F2F2;;
 }
 .price-tables {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   overflow: hidden;
   background-color: $color-price-tables;
   max-width: 1440px;

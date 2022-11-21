@@ -145,7 +145,12 @@
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
   font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F2F2;
 }
 
 .price-tables {
@@ -153,7 +158,6 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  flex-wrap: wrap;
   overflow: hidden;
   background-color: #141b1c;
   max-width: 1440px;
