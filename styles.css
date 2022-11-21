@@ -51,28 +51,41 @@
   color: #ffffff;
   margin: 40px 26px 40px 26px;
 }
-.price-card__options-list tr:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.5019607843);
+.price-card__options-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-.price-card__options-list td {
+.price-card__options-list_item {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
   padding: 16px 0 16px 22px;
 }
+.price-card__options-list_item:nth-child(odd) {
+  background-color: rgba(42, 52, 56, 0.5019607843);
+}
 .price-card__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  margin-top: 40px;
+  padding: 0;
+  margin: auto;
+  margin-top: 39px;
 }
 
-.symbol {
+.checkmark {
+  display: inline-block;
   width: 15px;
   height: 13px;
   margin-right: 22px;
+}
+.checkmark_green {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+.checkmark_blue {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+.checkmark_orange {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
 
 .price-card__order-btn {
@@ -141,10 +154,11 @@
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
+  overflow: hidden;
   position: relative;
   background-color: #141b1c;
   max-width: 1440px;
-  min-height: 1000px;
+  height: 1000px;
 }
 
 /*# sourceMappingURL=styles.css.map */
