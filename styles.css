@@ -151,10 +151,10 @@
 .price-tables {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex: 1;
   flex-wrap: wrap;
   overflow: hidden;
-  position: relative;
   background-color: #141b1c;
   max-width: 1440px;
   height: 1000px;
