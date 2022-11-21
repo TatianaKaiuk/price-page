@@ -145,9 +145,13 @@
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Montserrat", sans-serif;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   background-color: #F2F2F2;
 }
 
@@ -156,7 +160,6 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  overflow: hidden;
   background-color: #141b1c;
   max-width: 1440px;
   height: 1000px;
