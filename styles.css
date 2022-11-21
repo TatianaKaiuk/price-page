@@ -151,7 +151,6 @@
 .price-tables {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex: 1;
   flex-wrap: wrap;
   overflow: hidden;
