@@ -144,23 +144,25 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
-  width: 100vw;
-  height: 100vh;
-  background-color: #f2f2f2;
+  background-color: #141b1c;
+  overflow: hidden;
 }
 
 .price-tables {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
-  background-color: #141b1c;
   width: 1440px;
   height: 1000px;
 }
