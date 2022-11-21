@@ -8,7 +8,7 @@
 body {
   width: 100vw;
   height: 100vh;
-
+  display: flex;
 }
 .page {
   display: flex;
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  // flex: 1;
+  flex: 1;
   max-width: 1440px;
   height: 1000px;
   // flex-wrap: wrap;
