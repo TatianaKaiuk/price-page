@@ -155,10 +155,10 @@ body {
 .page {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
   background-color: #141b1c;
+  width: 100%;
   overflow: hidden;
 }
 
